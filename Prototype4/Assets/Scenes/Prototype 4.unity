@@ -259,7 +259,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e53e9793f891e4748bedda70d388a81f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 30
+  rotationSpeed: 90
 --- !u!1001 &820155148
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -754,7 +754,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d53b79a4a0f537641a0c1be006545e41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyCount: 0
+  waveNumber: 1
   enemyPrefab: {fileID: 8290340289385223955, guid: e416e0f3b9fdb704a94dd004806fe43a,
+    type: 3}
+  powerupPrefab: {fileID: 7800402846024625695, guid: 7fab6645d04374b49abfb25611dbc087,
     type: 3}
 --- !u!4 &1790884298
 Transform:
